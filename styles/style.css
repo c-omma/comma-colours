@@ -27,7 +27,6 @@ html {
 }
 
 .colours {
-
     display: flex;
     margin: auto auto;
     width: 60%;
@@ -35,19 +34,16 @@ html {
     margin-bottom: 2vh;
 }
 
-.colour {
-
+.colour_box {
     display: flex;
     flex-direction: column;
     align-items: center;
 
     margin: auto auto;
     writing-mode: vertical-rl;
-
 }
 
-.colour_alt {
-
+.colour_alt_box {
     visibility: hidden;
 
     display: flex;
@@ -56,12 +52,5 @@ html {
 
     margin: auto auto;
 
-    font-size: 2vw;
-    font-family: var(--main-font);
-
     transform: translateX(-1vw);
-
 }
-
-
-

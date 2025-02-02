@@ -1,28 +1,37 @@
-.colour_alt_background {
+.colour_alt_box .colour_name {
+    font-size: 2.5vw;
+    font-family: var(--main-font);
+}
+
+.colour_alt {
     height: 7vw;
     width: 7vw;
-    
+    border-radius: 50%;
+}
 
+#alt_bg {
+    color: var(--other-bg-color);
+}
+
+#alt_bg .colour_alt {
     background-color: var(--other-bg-color);
     border: 2px solid var(--other-bg-color);
-    border-radius: 50%;
 }
 
-.colour_alt_title {
-    height: 7vw;
-    width: 7vw;
+#alt_title {
+    color: var(--other-title-color);
+}
 
-
+#alt_title .colour_alt {
     background-color: var(--other-title-color);
     border: 2px solid var(--other-title-color);
-    border-radius: 50%;
 }
 
-.colour_alt_text {
-    height: 7vw;
-    width: 7vw;
+#alt_text {
+    color: var(--other-text-color);
+}
 
+#alt_text .colour_alt {
     background-color: var(--other-text-color);
     border: 2px solid var(--other-text-color);
-    border-radius: 50%;
 }
