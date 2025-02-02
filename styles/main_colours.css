@@ -10,8 +10,7 @@
     height: 10vw;
     width: 10vw;
     
-    border-top-left-radius: 15%;
-    border-bottom-right-radius: 15%;
+    border-radius: 10%;
 }
 
 #main_bg {

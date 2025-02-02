@@ -72,6 +72,16 @@ bg_alt.addEventListener('click', () => {
     }, 50);
 });
 
+bg_shadow.addEventListener('click', () => {
+    navigator.clipboard.writeText('#BCA59F');
+    setTimeout(() => {
+        shadows[0].style.backgroundColor = '#AB8E87';
+    }, 0);
+    setTimeout(() => {
+        shadows[0].style.backgroundColor = '#BCA59F';
+    }, 50);
+});
+
 /* title colours */
 
 title_main.addEventListener('click', () => {
@@ -103,6 +113,16 @@ title_alt.addEventListener('click', () => {
     }, 50);
 });
 
+title_shadow.addEventListener('click', () => {
+    navigator.clipboard.writeText('#904F4A');
+    setTimeout(() => {
+        shadows[1].style.backgroundColor = '#79423E';
+    }, 0);
+    setTimeout(() => {
+        shadows[1].style.backgroundColor = '#904F4A';
+    }, 50);
+});
+
 /* text colours */ 
 
 text_main.addEventListener('click', () => {
@@ -130,5 +150,15 @@ text_alt.addEventListener('click', () => {
     }, 0);
     setTimeout(() => {
         alt_colors[2].style.backgroundColor = '#F5DAAF';
+    }, 50);
+});
+
+text_shadow.addEventListener('click', () => {
+    navigator.clipboard.writeText('#904F4A');
+    setTimeout(() => {
+        shadows[2].style.backgroundColor = '#79423E';
+    }, 0);
+    setTimeout(() => {
+        shadows[2].style.backgroundColor = '#904F4A';
     }, 50);
 });
