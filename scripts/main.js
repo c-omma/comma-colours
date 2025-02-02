@@ -1,4 +1,10 @@
 const bg_main = document.querySelector('.colour_background');
+const bg_alt = document.querySelector('.colour_alt_background');
+
+bg_main.addEventListener('mouseover', () => {
+    bg_alt.style.visibility = "visible";
+    // refactoring needed
+});
 
 bg_main.addEventListener('click', () => {
     navigator.clipboard.writeText("#F1E7E5");

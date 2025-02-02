@@ -7,6 +7,8 @@
 
         <!-- styles -->
         <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="styles/main_colours.css"/>
+        <link rel="stylesheet" href="styles/alternative_colours.css"/>
         
         <!-- fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Playwrite+PT:wght@100..400&display=swap" />
@@ -15,19 +17,41 @@
 
     <body>
 
+        <!-- alternative colours -->
+        <div class="colours">
+            <div class="colour_alt" style="color: var(--other-bg-color)"> alternative
+                <div class="colour_alt_background"></div>
+            </div>
+
+            <div class="colour_alt" style="color: var(--other-title-color)"> alternative
+                <div class="colour_alt_title"></div>
+            </div>
+
+            <div class="colour_alt" style="color: var(--other-text-color)"> alternative
+                <div class="colour_alt_text"></div>
+            </div>
+        </div>
+
+        <!-- main colours -->
         <div class="colours">
             <div class="colour">
-                <div class="colour_name">background</div>
+                <div class="colour_name" style="color: var(--main-text-color)">
+                    background
+                </div>
                 <div class="colour_background"></div>
             </div>
 
             <div class="colour">
-                <div class="colour_name">title</div>
+                <div class="colour_name" style="color: var(--main-title-color)">
+                    title
+                </div>
                 <div class="colour_title"></div>
             </div>
 
             <div class="colour">
-                <div class="colour_name">text</div>
+                <div class="colour_name" style="color: var(--main-text-color)">
+                    text
+                </div>
                 <div class="colour_text"></div>
             </div>
         </div>
