@@ -1,0 +1,37 @@
+.shadow_box .colour_name {
+    font-size: 2.5vw;
+    font-family: var(--main-font);
+}
+
+.shadow {
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+}
+
+#shadow_bg {
+    color: var(--shadow-bg-color);
+}
+
+#shadow_bg .shadow {
+    background-color: var(--shadow-bg-color);
+    border: 2px solid var(--shadow-bg-color);
+}
+
+#shadow_title {
+    color: var(--shadow-title-color);
+}
+
+#shadow_title .shadow {
+    background-color: var(--shadow-title-color);
+    border: 2px solid var(--shadow-title-color);
+}
+
+#shadow_text {
+    color: var(--shadow-text-color);
+}
+
+#shadow_text .shadow {
+    background-color: var(--shadow-text-color);
+    border: 2px solid var(--shadow-text-color);
+}
