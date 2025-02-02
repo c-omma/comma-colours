@@ -9,11 +9,11 @@ const text_main = document.getElementById('main_text');
 const text_alt = document.getElementById('alt_text');
 
 function hide_bg() {
-    bg_alt.style.visibility = "hidden";
+    bg_alt.style.opacity = 0;
 }
 
 function show_bg() {
-    bg_alt.style.visibility = "visible";
+    bg_alt.style.opacity = 100;
 }
 
 bg_main.addEventListener('click', () => {
@@ -42,11 +42,11 @@ bg_alt.addEventListener('click', () => {
 });
 
 function hide_title() {
-    title_alt.style.visibility = "hidden";
+    title_alt.style.opacity = 0;
 }
 
 function show_title() {
-    title_alt.style.visibility = "visible";
+    title_alt.style.opacity = 100;
 }
 
 title_main.addEventListener('click', () => {
@@ -78,11 +78,11 @@ title_alt.addEventListener('click', () => {
 });
 
 function hide_text() {
-    text_alt.style.visibility = "hidden";
+    text_alt.style.opacity = 0;
 }
 
 function show_text() {
-    text_alt.style.visibility = "visible";
+    text_alt.style.opacity = 100;
 }
 
 text_main.addEventListener('click', () => {

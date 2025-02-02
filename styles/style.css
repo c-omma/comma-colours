@@ -47,7 +47,7 @@ html {
 }
 
 .colour_alt_box {
-    visibility: hidden;
+    opacity: 0;
 
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@ html {
     margin: auto auto;
 
     cursor: pointer;
-    /* transition: all 0.5s ease; */
+    transition: all 0.3s ease;
 
     transform: translateX(-1vw);
 }
