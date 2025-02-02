@@ -1,6 +1,8 @@
 .colour_alt_box .colour_name {
-    font-size: 2.5vw;
     font-family: var(--main-font);
+    font-size: 100px;
+
+    text-anchor: middle;
 }
 
 .colour_alt {
@@ -10,7 +12,7 @@
 }
 
 #alt_bg {
-    color: var(--other-bg-color);
+    fill: var(--other-bg-color);
 }
 
 #alt_bg .colour_alt {
@@ -19,7 +21,7 @@
 }
 
 #alt_title {
-    color: var(--other-title-color);
+    fill: var(--other-title-color);
 }
 
 #alt_title .colour_alt {
@@ -28,7 +30,7 @@
 }
 
 #alt_text {
-    color: var(--other-text-color);
+    fill: var(--other-text-color);
 }
 
 #alt_text .colour_alt {
