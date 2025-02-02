@@ -1,5 +1,5 @@
 .colour_alt_box .colour_name {
-    font-family: var(--main-font);
+    font-family: var(--title-font);
     font-size: 100px;
 
     text-anchor: middle;
@@ -12,7 +12,7 @@
 }
 
 #alt_bg {
-    fill: var(--other-bg-color);
+    fill: var(--shadow-bg-color);
 }
 
 #alt_bg .colour_alt {

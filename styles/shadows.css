@@ -1,5 +1,5 @@
 .shadow_box .colour_name {
-    font-family: var(--main-font);
+    font-family: var(--title-font);
     font-size: 150px;
 
     text-anchor: middle;
