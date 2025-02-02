@@ -1,0 +1,109 @@
+:root {
+    /* main colours */
+    --main-bg-color: #F1E7E5;
+    --main-text-color: #4f362f;
+    --main-title-color: #C38783;
+
+    /* secondary colours */
+    --other-bg-color: #BCA59F;
+    --other-title-color: #906D64;
+    --other-text-color: #906D64;
+    --highlight-color: #D2A689;
+
+    /* other colours */
+    --white-color: #f9f9f9;
+    --green-color: #9EA476;
+    --yellow-color:#F5DAAF;
+
+    /* shadows */
+    --title-shadow: 2px 2px 1px #904f4a;
+
+    /* fonts */
+    --main-font: "EB Garamond", serif;
+    --title-font: "Gochi Hand", serif;
+}
+
+html {
+    background-color: var(--main-bg-color);
+    height: 100vh;
+    align-content: center;
+}
+
+h1 {
+    color: var(--main-title-color);
+    font-family: var(--title-font);
+    font-size: 9vw;
+    text-shadow: var(--title-shadow);
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    color: var(--other-title-color);
+    font-family: var(--main-font);
+    font-size: 3vw;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+.colours {
+    display: flex;
+    margin: auto auto;
+    width: 80%;
+
+    border: 2px solid var(--main-text-color);
+}
+
+.colour {
+
+    font-size: 2.5vw;
+    font-family: var(--title-font);
+    color: var(--main-title-color);
+    
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
+    margin: auto auto;
+
+    border: 1px solid var(--main-title-color);
+
+}
+
+.colour_background {
+    height: 10vw;
+    width: 10vw;
+
+
+    background-color: var(--main-bg-color);
+    border: 3px solid var(--main-text-color);
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.colour_background:hover {
+}
+
+.colour_title {
+    height: 10vw;
+    width: 10vw;
+
+
+    background-color: var(--main-bg-color);
+    border: 3px solid var(--main-text-color);
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.colour_text {
+    height: 10vw;
+    width: 10vw;
+
+
+    background-color: var(--main-bg-color);
+    border: 3px solid var(--main-text-color);
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
