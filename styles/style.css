@@ -41,6 +41,9 @@ html {
 
     margin: auto auto;
     writing-mode: vertical-rl;
+
+    cursor: pointer;
+    transition: all 0.5s ease;
 }
 
 .colour_alt_box {
@@ -52,5 +55,8 @@ html {
 
     margin: auto auto;
 
+    cursor: pointer;
+    transition: all 0.5s ease;
+    
     transform: translateX(-1vw);
 }
