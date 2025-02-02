@@ -44,6 +44,8 @@ function show_text() {
     text_shadow.style.opacity = 100;
 }
 
+/* background colours */
+
 bg_main.addEventListener('click', () => {
     navigator.clipboard.writeText('#F1E7E5');
     setTimeout(() => {
@@ -56,6 +58,7 @@ bg_main.addEventListener('click', () => {
 
 bg_main.addEventListener('mouseover', () => {
     show_bg();
+    hide_text(); hide_title();
     bg_alt.addEventListener('mouseleave', hide_bg);
 });
 
@@ -68,6 +71,8 @@ bg_alt.addEventListener('click', () => {
         alt_colors[0].style.backgroundColor = '#F9F9F9';
     }, 50);
 });
+
+/* title colours */
 
 title_main.addEventListener('click', () => {
     navigator.clipboard.writeText('#C38783');
@@ -82,6 +87,7 @@ title_main.addEventListener('click', () => {
 
 title_main.addEventListener('mouseover', () => {
     show_title();
+    hide_bg(); hide_text();
     title_alt.addEventListener('mouseleave', hide_title);
 });
 
@@ -97,6 +103,8 @@ title_alt.addEventListener('click', () => {
     }, 50);
 });
 
+/* text colours */ 
+
 text_main.addEventListener('click', () => {
     navigator.clipboard.writeText('#906D64');
 
@@ -110,6 +118,7 @@ text_main.addEventListener('click', () => {
 
 text_main.addEventListener('mouseover', () => {
     show_text();
+    hide_bg(); hide_title();
     text_alt.addEventListener('mouseleave', hide_text);
 });
 
