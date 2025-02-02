@@ -1,6 +1,8 @@
 .shadow_box .colour_name {
-    font-size: 2.5vw;
     font-family: var(--main-font);
+    font-size: 150px;
+
+    text-anchor: middle;
 }
 
 .shadow {
@@ -10,7 +12,7 @@
 }
 
 #shadow_bg {
-    color: var(--shadow-bg-color);
+    fill: var(--shadow-bg-color);
 }
 
 #shadow_bg .shadow {
@@ -19,7 +21,7 @@
 }
 
 #shadow_title {
-    color: var(--shadow-title-color);
+    fill: var(--shadow-title-color);
 }
 
 #shadow_title .shadow {
@@ -28,7 +30,7 @@
 }
 
 #shadow_text {
-    color: var(--shadow-text-color);
+    fill: var(--shadow-text-color);
 }
 
 #shadow_text .shadow {
