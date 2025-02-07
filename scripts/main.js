@@ -154,11 +154,11 @@ text_alt.addEventListener('click', () => {
 });
 
 text_shadow.addEventListener('click', () => {
-    navigator.clipboard.writeText('#904F4A');
+    navigator.clipboard.writeText('#4F362F');
     setTimeout(() => {
-        shadows[2].style.backgroundColor = '#79423E';
+        shadows[2].style.backgroundColor = '#402C26';
     }, 0);
     setTimeout(() => {
-        shadows[2].style.backgroundColor = '#904F4A';
+        shadows[2].style.backgroundColor = '#4F362F';
     }, 50);
 });
